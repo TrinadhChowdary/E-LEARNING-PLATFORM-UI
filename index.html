@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>E-Learning Platform</h1>
+</header>
+
+<nav>
+  <button onclick="showSection('courses')">Courses</button>
+  <button onclick="showSection('progress')">My Progress</button>
+  <button onclick="showSection('certificate')">Certificate</button>
+</nav>
+
+<section id="courses" class="active">
+  <h2>Learning Resources</h2>
+
+  <div class="course">
+    <h3>SQL for Beginners</h3>
+    <p>Understand the basics of SQL with this beginner-friendly tutorial.</p>
+    <div class="video-container">
+      <iframe id="sql" src="https://www.youtube.com/embed/HXV3zeQKqGY?enablejsapi=1" allowfullscreen></iframe>
+    </div>
+    <div class="progress"><div class="progress-bar" id="sql-progress"></div></div>
+  </div>
+
+  <div class="course">
+    <h3>Data Structures & Algorithms (DSA) in C++</h3>
+    <p>Learn DSA concepts like arrays, linked lists, stacks, and queues using C++.</p>
+    <div class="video-container">
+      <iframe id="dsa" src="https://www.youtube.com/embed/z9bZufPHFLU?enablejsapi=1" allowfullscreen></iframe>
+    </div>
+    <div class="progress"><div class="progress-bar" id="dsa-progress"></div></div>
+  </div>
+
+  <div class="course">
+    <h3>JavaScript Basics</h3>
+    <p>Master the fundamentals of JavaScript for web development.</p>
+    <div class="video-container">
+      <iframe id="js" src="https://www.youtube.com/embed/hdI2bqOjy3c?enablejsapi=1" allowfullscreen></iframe>
+    </div>
+    <div class="progress"><div class="progress-bar" id="js-progress"></div></div>
+  </div>
+
+  <div class="course">
+    <h3>Python Programming</h3>
+    <p>Complete Python tutorial for absolute beginners.</p>
+    <div class="video-container">
+      <iframe id="python" src="https://www.youtube.com/embed/_uQrJ0TkZlc?enablejsapi=1" allowfullscreen></iframe>
+    </div>
+    <div class="progress"><div class="progress-bar" id="python-progress"></div></div>
+  </div>
+
+  <div class="course">
+    <h3>Web Development Basics</h3>
+    <p>HTML, CSS, JavaScript to backend development - complete journey.</p>
+    <div class="video-container">
+      <iframe id="webdev" src="https://www.youtube.com/embed/nu_pCVPKzTk?enablejsapi=1" allowfullscreen></iframe>
+    </div>
+    <div class="progress"><div class="progress-bar" id="webdev-progress"></div></div>
+  </div>
+
+  <div class="course">
+    <h3>Java Programming Fundamentals</h3>
+    <p>Learn Java fundamentals and OOP concepts.</p>
+    <div class="video-container">
+      <iframe id="java" src="https://www.youtube.com/embed/grEKMHGYyns?enablejsapi=1" allowfullscreen></iframe>
+    </div>
+    <div class="progress"><div class="progress-bar" id="java-progress"></div></div>
+  </div>
+</section>
+
+<section id="progress">
+  <h2>My Progress</h2>
+  <table>
+    <tr><th>Course</th><th>Status</th></tr>
+    <tr id="sql-row"><td>SQL for Beginners</td><td>In Progress</td></tr>
+    <tr id="dsa-row"><td>DSA in C++</td><td>In Progress</td></tr>
+    <tr id="js-row"><td>JavaScript Basics</td><td>In Progress</td></tr>
+    <tr id="python-row"><td>Python Programming</td><td>In Progress</td></tr>
+    <tr id="webdev-row"><td>Web Development Basics</td><td>In Progress</td></tr>
+    <tr id="java-row"><td>Java Programming Fundamentals</td><td>In Progress</td></tr>
+  </table>
+</section>
+
+<section id="certificate">
+  <h2>Certificate of Completion</h2>
+  <div class="certificate">
+    <p>This certifies you have successfully completed your internship on:</p>
+    <h3>[Your Internship End Date]</h3>
+    <p>E-Learning Platform</p>
+  </div>
+</section>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
