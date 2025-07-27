@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5e7;
+}
+
+header {
+  background: rgb(57, 90, 87);
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  background: darkcyan;
+  padding: 0.5em;
+}
+
+nav button {
+  background: darkcyan;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+nav button:hover {
+  background: rgb(0, 139, 81);
+}
+
+section {
+  display: none;
+  padding: 1em;
+}
+
+.active {
+  display: block;
+}
+
+.course {
+  margin-bottom: 2em;
+  background: white;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.video-container {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.video-container iframe {
+  width: 120px;
+  height: 120px;
+  border: none;
+}
+
+.progress {
+  background: whitesmoke;
+  border-radius: 4px;
+  margin-top: 1em;
+}
+
+.progress-bar {
+  background: darkcyan;
+  width: 0%;
+  height: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th, td {
+  border: 1px solid whitesmoke;
+  padding: 0.7em;
+  text-align: left;
+}
+
+th {
+  background: whitesmoke;
+}
+
+.certificate {
+  border: 2px solid #4a90e2;
+  padding: 2em;
+  text-align: center;
+  background: white;
+  display: inline-block;
+  margin-top: 1em;
+}
