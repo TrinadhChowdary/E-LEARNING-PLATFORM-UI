@@ -16,4 +16,6 @@ This is a responsive eLearning platform built using only HTML, CSS, and  JavaScr
 Once they kept seeing the video it is kept as marked completed.
 
 #output: 
-[elearning.pdf](https://github.com/user-attachments/files/21471980/elearning.pdf)
+
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/91a63cd2-701b-4e2e-be58-cad794206931" />
